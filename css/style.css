@@ -26,12 +26,32 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 .imagen {
     margin-top: 50px;
 }
-.main2 {
+/*Main Principales*/
+#main2 {
     position: relative;
 }
+#main3 {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    width: 847px;
+    margin: 0 auto;
+}
+.main4 {
+	position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 103px;
+}
+
+/*Menu*/
 #Menu {
     position: absolute;
     top: 0;
+    margin-top: 60px;
 }
 #Menu h5 {
 	color: #8f8f8f;
@@ -45,8 +65,10 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 .ayudamovil {
     border: 0px solid;
     box-shadow: 4px 2px 11px 0 #000;
-    width: 237px;
     background-color: white;
+    border-top: 6px solid #2fceff;
+    width: 237px;
+
 }
 ul.list-unstyled {
     margin-top: 23px;
@@ -68,4 +90,112 @@ ul.list-unstyled li:hover {
 ul.list-unstyled li a:hover {
     color: white;
     font-weight: bold;
+}
+.subtitle-1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    letter-spacing: 7px
+}
+span.text2 {
+    font-weight: bold;
+}
+#main3 ul a {
+    text-decoration: none;
+}
+.menubox-1 {
+    text-align: center;
+    font-size: 26px;
+}
+.menubox-1 li {
+    display: block;
+
+}
+button {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #fff;
+}
+button span {
+    font-size: 17px;
+    margin: 21px;
+}
+.subbox-1 {
+    display: inline-block;
+}
+.subtitle-1 h2 {
+    font-size: 36px;
+}
+.subbox-2 {
+    display: inline-block;
+    margin: 0 26px;
+}
+.subbox-3 {
+    display: inline-block;
+}
+.arrow {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 47px;
+    font-size: 110px;
+    top: 528px;
+}
+.arrow span {
+    color: white;
+}
+.subtitle-4 {
+    text-align: center;
+    margin-top: 103px;
+    color: #8f8f8f;
+}
+.subtitle-4 h2 {
+    font-size: 40px;
+}
+.text6 p {
+    text-align: center;
+    font-size: 16px;
+    color: #8f8f8f;
+}
+
+hr{
+    width: 49px;
+    border: 2px solid #01c3ff;
+    margin-bottom: 36px;
+}
+.imagen-2 img {
+    width: 139px;
+    height: 145px;
+}
+.subbox-4 button {
+    background-color: transparent;
+    color: #01c3ff;
+    border: 1px solid #01c3ff;
+    font-size: 18px;
+}
+.subbox-4 button span {
+    font-size: 12px;
+    margin: 21px;
+}
+p.text7 {
+    color: #5b5b5b;
+    font-size: 15px;
+    font-weight: bold;
+}
+.text3 {
+    color: #01c3ff;
+}
+
+
+
+
+/*footer*/
+nav.navbar.navbar-inverse.navbar-fixed-down {
+    border-color: #152f45;
+    border-radius: 0px;
+}
+.Nav3 ul.nav.navbar-nav {
+    border-bottom: 3px solid #277cb0;
 }
