@@ -1,0 +1,71 @@
+@charset utf-8;
+
+.container-fluid {
+   background-color: #152f45;
+}
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    border-color: #152f45;
+}
+.navbar-inverse .navbar-nav>li>a {
+     color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #277cb0;
+}
+.Nav2 ul {
+    margin-top: 18px;
+
+}
+.Nav2.pull-right a:hover {
+    color: #277cb0;
+}
+.Nav2.pull-right a {
+    
+    text-decoration: none;
+}
+.imagen {
+    margin-top: 50px;
+}
+.main2 {
+    position: relative;
+}
+#Menu {
+    position: absolute;
+    top: 0;
+}
+#Menu h5 {
+	color: #8f8f8f;
+    font-size: 41px;
+    margin-left: 22px;
+    padding-top: 38px;
+}
+#Menu h5 .text{
+	color: #2fceff;
+}
+.ayudamovil {
+    border: 0px solid;
+    box-shadow: 4px 2px 11px 0 #000;
+    width: 237px;
+    background-color: white;
+}
+ul.list-unstyled {
+    margin-top: 23px;
+}
+ul.list-unstyled li {
+    padding: 7px 0 21px;
+    font-size: 16px;
+    text-decoration: none;
+}
+ul.list-unstyled li a {
+    font-size: 17px;
+    text-decoration: none;
+    margin-left: 24px;
+    color: #8f8f8f;
+}
+ul.list-unstyled li:hover {
+    background-color: #01c3ff;
+}
+ul.list-unstyled li a:hover {
+    color: white;
+    font-weight: bold;
+}
