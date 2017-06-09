@@ -156,7 +156,7 @@ button span {
 }
 .text6 p {
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     color: #8f8f8f;
 }
 
@@ -187,8 +187,117 @@ p.text7 {
 .text3 {
     color: #01c3ff;
 }
+.text3-1 {
+    color: #01c3ff;
+    font-size: 31px;
+    font-weight: 500;
+}
+.Details-product {
+    text-align: center;
+}
+.menubox-2.clearfix {
+    display: inline-block;
+    margin-top: 100px;
+}
+.reference-1.pull-left {
+    text-align: left;
+    margin: 25px;
+}
+.subbox-4 {
+    margin-top: 60px;
+    text-align: left;
+}
+.box2.menubox-2.pull-left {
+    margin-left: 65px;
+}
+button.button1 {
+    margin-left: 10px;
+}
+#main5{
+	text-align: center;
+    background-color: #01c3ff;
+    padding: 56px 0 56px 0;
+    margin: 200px 15px 50px 15px;
+}
+.subtitle-3 {
+    color: white;
+}
+#main5 span.text4 {
+    font-weight: bold;
+}
+.imagen-4 img {
+    width: 100%;
+}
+.subtitle-5 {
+    text-align: center;
+    margin-top: 82px;
+    color: #8f8f8f;
+}
+.imagen-5 img {
+    width: 400px;
+    height: 550px;
+    margin-top: 20px;
+}	
+.Data-imagen-0 img {
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid #8f8f8f;
+}
+.Data-imagen-1{
+	margin: 27px 0 27px 0;
+}
+.Data-imagen-1 img {
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid #8f8f8f;
+}
+.product-Details {
+    display: inline-block;
+    margin-left: 18px;
+}
+.text8 {
+    display: inline-block;
+    margin-left: 33px;
+}
+.subbox-5 {
+    display: inline-block;
+}
+.subbox-5 button {
+    background-color: transparent;
+    color: #01c3ff;
+    border: 1px solid #01c3ff;
+    font-size: 30px;
+    padding: 0 12px;
+}
+.subbox-6 {
+    display: inline-block;
+    margin-left: 10px;
+}
+.subbox-6 button {
+    background-color: transparent;
+    color: #01c3ff;
+    border: 1px solid #01c3ff;
+    font-size: 30px;
+    padding: 0 12px;
+}
+.data-product {
+    margin-top: 56px;
+}
+.imagen-5 {
+    float: left;
+}
+.Product-Details.clearfix {
+    float: left;
+    margin-left: 200px;
+}
+.Product-Details.pull-left {
+    margin-left: 100px;
+}
 
-
+.support {
+    border: 1px solid #8f8f8f;
+    width: 624px;
+}
 
 
 /*footer*/
