@@ -1,5 +1,7 @@
 @charset utf-8;
 
+/*header*/
+
 .container-fluid {
    background-color: #152f45;
 }
@@ -12,16 +14,11 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #277cb0;
 }
-.Nav2 ul {
-    margin-top: 18px;
-
-}
 .Nav2.pull-right a:hover {
     color: #277cb0;
 }
 .Nav2.pull-right a {
-    
-    text-decoration: none;
+   text-decoration: none;
 }
 .imagen {
     margin-top: 50px;
@@ -51,7 +48,7 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 #Menu {
     position: absolute;
     top: 0;
-    margin-top: 60px;
+    margin: 120px 0 121px 0;
 }
 #Menu h5 {
 	color: #8f8f8f;
@@ -136,12 +133,12 @@ button span {
 .arrow {
     position: absolute;
     bottom: 0px;
-    left: 0;
+    left: 0px;
     right: 0;
     margin: 0 auto;
-    width: 47px;
     font-size: 110px;
-    top: 528px;
+    top: 609px;
+    text-align: center;
 }
 .arrow span {
     color: white;
@@ -154,12 +151,27 @@ button span {
 .subtitle-4 h2 {
     font-size: 40px;
 }
-.text6 p {
+.text5 p {
     text-align: center;
-    font-size: 18px;
+    font-size: 23px;
     color: #8f8f8f;
 }
-
+.support .text {
+    display: inline-block;
+    margin-left: 24px;
+    margin-top: 0px;
+    font-size: 27px;
+    color: #465157;
+    font-weight: 900;
+}
+.support .text6 {
+    text-align: center;
+}
+.support .text6 p {
+    text-align: center;
+    font-size: 19px;
+    color: #8f8f8f;
+}
 hr{
     width: 49px;
     border: 2px solid #01c3ff;
@@ -198,6 +210,7 @@ p.text7 {
 .menubox-2.clearfix {
     display: inline-block;
     margin-top: 100px;
+    margin-left: 50px;
 }
 .reference-1.pull-left {
     text-align: left;
@@ -293,18 +306,67 @@ button.button1 {
 .Product-Details.pull-left {
     margin-left: 100px;
 }
-
 .support {
-    border: 1px solid #8f8f8f;
-    width: 624px;
+    text-align: center;
+    margin-top: 150px;
 }
-
+.support1 {
+    border: 1px solid #8f8f8f;
+    display: inline-block;
+    padding: 39px 87px 32px 88px;
+}
+.Details-imagen-1 {
+    display: inline-block;
+    float: left;
+}
+.Details-imagen-1 img {
+    width: 84px;
+}
+.video{
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.Videos.clearfix {
+    display: inline-block;
+    margin-top: 80px;
+    margin-bottom: 140px;
+}
+.videos-1 img {
+    width: 600px;
+    height: 568px;
+}
+.videos-2 img {
+    width: 600px;
+    height: 568px;
+}
+.videos-2.pull-left {
+    margin-left: 52px;
+}
 
 /*footer*/
 nav.navbar.navbar-inverse.navbar-fixed-down {
-    border-color: #152f45;
     border-radius: 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+.container-fluid .Nav3 {
+    display: inline-block;
 }
 .Nav3 ul.nav.navbar-nav {
     border-bottom: 3px solid #277cb0;
+    margin-bottom: 9px;
+}
+.Nav3 .text10 {
+    color: #506374;
+    font-size: 10px;
+}
+.Nav3 li.li1 {
+    margin-left: 100px;
+    display: inline-block;
+}
+.navbar-inverse .Nav3 .navbar-nav>li>a {
+    padding: 20px 0 12px 0;
+    font-size: 14px;
 }
