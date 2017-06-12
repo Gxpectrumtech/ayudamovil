@@ -51,18 +51,20 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
     opacity: 0.6;
 }
 .subtitle-1 h2 {
-    font-size: 54px;
+    font-size: 66px;
     margin: 0 auto;
     color: #00c3ff;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 .subbox-1 button {
     color: white;
     border: 2px solid #fff;
     background-color: transparent;
-    font-size: 22px;
+    font-size: 28px;
     padding: 20px 60px 20px 60px;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 .comprar {
     position: relative;
@@ -79,10 +81,10 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
     margin-top: 140px;
 }
 #Menu h5 {
-	color: #8f8f8f;
-    font-size: 41px;
+    color: #8f8f8f;
+    font-size: 32px;
     margin-left: 22px;
-    padding-top: 38px;
+    padding-top: 21px;
 }
 #Menu h5 .text{
 	color: #2fceff;
@@ -92,14 +94,13 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
     box-shadow: 4px 2px 11px 0 #000;
     background-color: white;
     border-top: 6px solid #2fceff;
-    width: 237px;
-
+    width: 200px;
 }
 ul.list-unstyled {
     margin-top: 23px;
 }
 ul.list-unstyled li {
-    padding: 7px 0 21px;
+    padding: 3px 0 21px;
     font-size: 16px;
     text-decoration: none;
 }
@@ -117,10 +118,6 @@ ul.list-unstyled li a:hover {
     font-weight: bold;
 }
 /*Contact*/
-.contact-1 {
-    text-align: right;
-   
-}
 .subtitle-2 {
     display: inline-block;
     text-align: center;
@@ -128,26 +125,37 @@ ul.list-unstyled li a:hover {
     float: right;
     left: 37%;
 }
-img.contac {
-    position: relative;
-    top: 158px;
-    right: 37px;
+.box2 {
+    text-align: left;
+    border-bottom: 1px solid;
+    width: 37%;
 }
-img.img-3 {
-    position: relative;
-    top: 98px;
-    left: 593px;
+.contact-1 {
+    text-align: right;
 }
-img.img-4 {
-    position: relative;
-    top: 99px;
-    left: 27px;
+.contac h2 {
+    color: #2fceff;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
 }
-img.img-5 {
-    position: relative;
-    top: 62px;
-    left: 24.7%;
+.imagen-3 {
+    position: absolute;
+    right: 0;
 }
+.document-ubucatio.clearfix {
+    margin-left: 300px;
+    margin-top: 129px;
+}
+img.img-1 {
+    float: left;
+}
+.text8.pull-left {
+    margin: 10px 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
 
 
 

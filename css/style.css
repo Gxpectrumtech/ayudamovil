@@ -14,11 +14,15 @@ nav.navbar.navbar-inverse.navbar-fixed-top {
 .navbar-inverse .navbar-nav>li>a:hover {
     color: #277cb0;
 }
-.Nav2.pull-right a:hover {
+.Nav2. a:hover {
     color: #277cb0;
 }
-.Nav2.pull-right a {
+.Nav2. a {
    text-decoration: none;
+   float: right;
+}
+.Nav2 ul.nav.navbar-nav {
+    float: right;
 }
 .imagen {
     margin-top: 50px;
@@ -334,17 +338,11 @@ button.button1 {
     margin-bottom: 140px;
 }
 .videos-1 img {
-    width: 600px;
-    height: 568px;
+    max-width: 600px;
 }
 .videos-2 img {
-    width: 600px;
-    height: 568px;
+    max-width: 600px;
 }
-.videos-2.pull-left {
-    margin-left: 52px;
-}
-
 /*footer*/
 nav.navbar.navbar-inverse.navbar-fixed-down {
     border-radius: 0px;
